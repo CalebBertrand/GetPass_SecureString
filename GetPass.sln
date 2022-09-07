@@ -27,9 +27,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetPass", "src\GetPass\GetPass.csproj", "{FA8F31A9-4616-40AF-97B0-C38362CA03D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetPassSecureString", "src\GetPassSecureString\GetPassSecureString.csproj", "{FA8F31A9-4616-40AF-97B0-C38362CA03D2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetPass.Test", "test\GetPass.Test\GetPass.Test.csproj", "{27298FFA-7CD1-4BFC-BCAA-C836E5B7DC44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetPassSecureString.Test", "test\GetPassSecureString.Test\GetPassSecureString.Test.csproj", "{27298FFA-7CD1-4BFC-BCAA-C836E5B7DC44}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample", "samples\Sample\Sample.csproj", "{FF18B9C9-38FA-4EBA-9463-8EAFF7989A59}"
 EndProject

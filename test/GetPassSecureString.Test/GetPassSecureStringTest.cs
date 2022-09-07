@@ -1,13 +1,11 @@
-using Xunit;
-
-namespace GetPass.Test
+namespace GetPassSecureString.Test
 {
     using System;
-    using System.Collections.Generic;
     using System.Runtime.CompilerServices;
     using System.Runtime.InteropServices;
     using System.Security;
-    using Console = GetPass.Console;
+    using Console = GetPassSecureString.Console;
+    using Xunit;
 
     public partial class GetPassTest
     {

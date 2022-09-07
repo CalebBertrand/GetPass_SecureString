@@ -1,14 +1,12 @@
 <Project>
   <PropertyGroup>
-    <Authors>Alessio Franceschelli</Authors>
+    <Authors>Caleb Bertrand</Authors>
     <PackageTags>console password</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/alefranz/GetPass</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/alefranz/GetPass.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/CalebBertrand/GetPass_SecureString</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/CalebBertrand/GetPass_SecureString.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>https://github.com/alefranz/GetPass/releases</PackageReleaseNotes>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-19554-01" PrivateAssets="All"/>

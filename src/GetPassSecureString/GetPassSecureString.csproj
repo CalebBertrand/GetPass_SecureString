@@ -1,9 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <Configurations>Debug;Release;DebugNoRedirect</Configurations>
-    <Description>GetPass is a free, open source, cross-platform library to read passwords in console applications masking the input. It simply focus on getting the job done, with zero-dependencies and few lines of code.</Description>
+    <Description>GetPass is a free, open source, cross-platform library to read passwords in console applications masking the input. It simply focus on getting the job done, with zero-dependencies and few lines of code. This fork returns a SecureString instead of a string.</Description>
+    <RootNamespace>GetPassSecureString</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -19,5 +20,11 @@
       <_Parameter1>$(MSBuildProjectName).Test</_Parameter1>
     </AssemblyAttribute>
   </ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>GetPass_SecureString</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>CalebBertrand</Authors>
+  </PropertyGroup>
 
 </Project>

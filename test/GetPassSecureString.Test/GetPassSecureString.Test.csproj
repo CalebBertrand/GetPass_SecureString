@@ -6,6 +6,8 @@
     <IsPackable>false</IsPackable>
 
     <Configurations>Debug;Release;DebugNoRedirect</Configurations>
+
+    <RootNamespace>GetPassSecureString.Test</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\GetPass\GetPass.csproj" />
+    <ProjectReference Include="..\..\src\GetPassSecureString\GetPassSecureString.csproj" />
   </ItemGroup>
 
 </Project>

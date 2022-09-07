@@ -1,7 +1,6 @@
-using System;
-
-namespace GetPass
+namespace GetPassSecureString
 {
+    using System;
 
 #if REDIRECT_CONSOLE
     // Replace console call to allow testing

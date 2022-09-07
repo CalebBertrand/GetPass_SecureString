@@ -1,4 +1,4 @@
-namespace GetPass
+namespace GetPassSecureString
 {
     using System.Security;
 

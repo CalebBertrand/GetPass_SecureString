@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace GetPass.Test
+namespace GetPassSecureString.Test
 {
     public partial class GetPassTest
     {

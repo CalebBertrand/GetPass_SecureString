@@ -1,5 +1,5 @@
 using System;
-using GetPass;
+using GetPassSecureString;
 
 namespace Sample
 {
