@@ -1,13 +1,12 @@
-using System;
-using System.Text;
-
 namespace GetPass
 {
+    using System.Security;
+
     public class ConsolePasswordReader
     {
-        public static string Read(string prompt = "Password: ")
+        public static SecureString Read(string prompt = "Password: ")
         {
-            var password = new StringBuilder();
+            var password = new SecureString();
             
             Console.Write(prompt);
             do
@@ -18,7 +17,7 @@ namespace GetPass
                 {
                     if (password.Length > 0)
                     {
-                        password.Remove(password.Length - 1, 1);
+                        password.RemoveAt(password.Length - 1);
                         Console.Write("\b \b");
                     }
                 }
@@ -29,12 +28,12 @@ namespace GetPass
                 }
                 else if (!char.IsControl(key))
                 {
-                    password.Append(key);
+                    password.AppendChar(key);
                     Console.Write('*');
                 }
             } while (true);
             
-            return password.ToString();
+            return password;
         }
     }
 }
